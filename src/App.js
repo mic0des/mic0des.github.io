@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Game from './Game';
+import Image from './Image';
 
 class App extends Component {
 
@@ -8,7 +9,8 @@ class App extends Component {
 
         return (
             <div className="App">
-                <Game />
+                {/* <Game /> */}
+                <Image />
             </div>
         );
     }
